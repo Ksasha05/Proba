@@ -1,2 +1,2 @@
 # Proba
-My first repozitory
+My first repoitory
