@@ -12,8 +12,8 @@ IWebDriver web = new ChromeDriver();
 web.Navigate().GoToUrl(link);
 
 ## Открыть ссылку в новом окне:
-web.SwitchTo().NewWindow(WindowType.Tab);
-web.Navigate().GoToUrl(link);
+web.SwitchTo().NewWindow(WindowType.Tab);<br>
+web.Navigate().GoToUrl(link);<br>
 
 
 
