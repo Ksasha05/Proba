@@ -2,9 +2,9 @@
 В основном как веб-драйвер использую хром.
 
 ## Инициализация драйвера:
-using OpenQA;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
+using OpenQA;<br>
+using OpenQA.Selenium;<br>
+using OpenQA.Selenium.Chrome;<br>
 
 IWebDriver web = new ChromeDriver();
 
