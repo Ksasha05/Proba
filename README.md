@@ -8,7 +8,12 @@ using OpenQA.Selenium.Chrome;<br>
 
 IWebDriver web = new ChromeDriver();
 
+## Открыть ссылку:
+web.Navigate().GoToUrl(link);
 
-
-## Новое окно:
+## Открыть ссылку в новом окне:
 web.SwitchTo().NewWindow(WindowType.Tab);
+web.Navigate().GoToUrl(link);
+
+
+
