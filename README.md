@@ -1,4 +1,4 @@
-# Справка по Selenium.
+# Справка по Selenium. (C#)
 В основном как веб-драйвер использую хром.
 
 ## Инициализация драйвера:
@@ -23,5 +23,13 @@ Thread.Sleep(7000);<br>
 web.FindElement(By.Xpath(""));<br>
 //Я использую Xpath(удобно через расширение в браузере смотреть), в кавычках пишется путь к элементу странице в виде XML - //p[@class='wa-overview__title']
 
+## Нажатие на элемент:
+web.FindElement(By.Xpath("")).Click();<br>
 
+## Выбрать текст элемента:
+string text = web.FindElement(By.Xpath("")).Text;<br>
+
+## Вставить значение в элемент(например в поле ввода):
+string text = "text";<br>
+web.FindElement(By.Xpath("")).SendKeys(text);<br>
 
