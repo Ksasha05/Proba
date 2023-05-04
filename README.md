@@ -15,6 +15,13 @@ web.Navigate().GoToUrl(link);
 web.SwitchTo().NewWindow(WindowType.Tab);<br>
 web.Navigate().GoToUrl(link);<br>
 
-## Явное ожидание 
-Thread.Sleep(7000);
+## Явное ожидание:
+Thread.Sleep(7000);<br>
 //В милисекундах
+
+## Найти элемент на текущей странице:
+web.FindElement(By.Xpath(""));<br>
+//Я использую Xpath(удобно через расширение в браузере смотреть), в кавычках пишется путь к элементу странице в виде XML - //p[@class='wa-overview__title']
+
+
+
