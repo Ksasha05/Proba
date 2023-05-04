@@ -15,5 +15,6 @@ web.Navigate().GoToUrl(link);
 web.SwitchTo().NewWindow(WindowType.Tab);<br>
 web.Navigate().GoToUrl(link);<br>
 
-
-
+## Явное ожидание 
+Thread.Sleep(7000);
+//В милисекундах
