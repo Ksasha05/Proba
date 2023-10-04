@@ -51,6 +51,7 @@ web.FindElement(By.Xpath("")).SendKeys(text);
 
 ## Собрать весь html-код страницы:
 ```
-                web.Navigate().GoToUrl(url);
-                text = web.PageSource;
+web.Navigate().GoToUrl(url);
+text = web.PageSource;
 ```
+
