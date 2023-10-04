@@ -1,12 +1,12 @@
 # Справка по Selenium. (C#)
-В основном как веб-драйвер использую хром.
+В основном как веб-драйвер использую Edge.
 
 ## Инициализация драйвера:
 using OpenQA;<br>
 using OpenQA.Selenium;<br>
-using OpenQA.Selenium.Chrome;<br>
+using OpenQA.Selenium.Edge;<br>
 
-IWebDriver web = new ChromeDriver();
+IWebDriver web = new EdgeDriver();
 
 ## Открыть ссылку:
 web.Navigate().GoToUrl(link);
