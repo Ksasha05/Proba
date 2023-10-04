@@ -34,3 +34,8 @@ string text = web.FindElement(By.Xpath("")).Text;<br>
 string text = "text";<br>
 web.FindElement(By.Xpath("")).SendKeys(text);<br>
 
+## Собрать весь html-код страницы:
+```
+                web.Navigate().GoToUrl(url);
+                text = web.PageSource;
+```
